@@ -1,0 +1,53 @@
+export const THEMES = {
+  kyoto: {
+    id: 'kyoto',
+    name: 'Kyoto Espresso',
+    subtitle: 'Warm dark espresso, oat linen & aged brass',
+    icon: 'Coffee',
+    bodyBg: '#13110f',
+    cardBg: 'rgba(26, 23, 20, 0.75)',
+    cardBorder: 'rgba(212, 180, 131, 0.15)',
+    accentGradient: 'from-[#d4b483] via-[#c29b7f] to-[#be7b72]',
+    headerTextGradient: 'from-[#f5ede0] via-[#e8ded1] to-[#d4b483]',
+    primaryAccent: '#d4b483',
+    goldAccent: '#cfb584',
+    textMain: '#ede6db',
+    textMuted: '#9e9589',
+    rimColor: '#26221d',
+    pegColor: '#d4b483'
+  },
+  linear: {
+    id: 'linear',
+    name: 'Nordic Graphite',
+    subtitle: 'Matte charcoal, titanium silver & pure slate',
+    icon: 'Terminal',
+    bodyBg: '#0e0e10',
+    cardBg: 'rgba(20, 20, 24, 0.75)',
+    cardBorder: 'rgba(255, 255, 255, 0.1)',
+    accentGradient: 'from-[#e2e8f0] via-[#94a3b8] to-[#64748b]',
+    headerTextGradient: 'from-[#ffffff] via-[#e2e8f0] to-[#cbd5e1]',
+    primaryAccent: '#e2e8f0',
+    goldAccent: '#cbd5e1',
+    textMain: '#f8fafc',
+    textMuted: '#94a3b8',
+    rimColor: '#222228',
+    pegColor: '#e2e8f0'
+  },
+  matcha: {
+    id: 'matcha',
+    name: 'Matcha Studio',
+    subtitle: 'Deep forest tea, dried bamboo & pale cream',
+    icon: 'Leaf',
+    bodyBg: '#0c120f',
+    cardBg: 'rgba(16, 24, 20, 0.75)',
+    cardBorder: 'rgba(126, 161, 147, 0.18)',
+    accentGradient: 'from-[#7ea193] via-[#a8c2b5] to-[#cfb584]',
+    headerTextGradient: 'from-[#f2f7f4] via-[#d5e3dc] to-[#cfb584]',
+    primaryAccent: '#8fa89b',
+    goldAccent: '#cfb584',
+    textMain: '#f2f7f4',
+    textMuted: '#8b9e95',
+    rimColor: '#192620',
+    pegColor: '#cfb584'
+  }
+};
